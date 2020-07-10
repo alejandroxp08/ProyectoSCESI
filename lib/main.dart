@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter_testapp1/AnimePage.dart';
+import 'package:flutter_testapp1/AnimePageStart.dart';
 import 'package:flutter_testapp1/PeliculasPage.dart';
 import 'package:flutter_testapp1/StartPage.dart';
 import 'package:flutter_testapp1/StartPage1.dart';
@@ -13,6 +14,7 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       title: 'Flutter Demo',
       theme: ThemeData(
         // This is the theme of your application.
@@ -30,7 +32,7 @@ class MyApp extends StatelessWidget {
         // closer together (more dense) than on mobile platforms.
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: PeliculasPage(),
+      home: AnimePageStart(),
     );
   }
 }

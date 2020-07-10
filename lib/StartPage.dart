@@ -16,7 +16,7 @@ class StartPage extends StatelessWidget {
       body: Stack(
         children: <Widget>[
           Transform.translate(
-            offset: Offset(48.0, 34.0),
+            offset: Offset(48.0, 64.0),
             child: SizedBox(
               width: 265.0,
               height: 27.0,
@@ -33,7 +33,7 @@ class StartPage extends StatelessWidget {
             ),
           ),
           Transform.translate(
-            offset: Offset(48.0, 67.0),
+            offset: Offset(48.0, 97.0),
             child: SizedBox(
               width: 282.0,
               height: 16.0,
@@ -53,7 +53,7 @@ class StartPage extends StatelessWidget {
           Stack(
             children: <Widget>[
               Transform.translate(
-                offset: Offset(198.0, 590.0),
+                offset: Offset(198.0, 620.0),
                 child: PageLink(
                   links: [
                     PageLinkInfo(
@@ -74,7 +74,7 @@ class StartPage extends StatelessWidget {
                 ),
               ),
               Transform.translate(
-                offset: Offset(246.0, 594.0),
+                offset: Offset(246.0, 624.0),
                 child: SizedBox(
                   width: 37.0,
                   height: 21.0,
@@ -95,7 +95,7 @@ class StartPage extends StatelessWidget {
           Stack(
             children: <Widget>[
               Transform.translate(
-                offset: Offset(30.0, 336.0),
+                offset: Offset(30.0, 366.0),
                 child: Container(
                   width: 300.0,
                   height: 100.0,
@@ -106,7 +106,7 @@ class StartPage extends StatelessWidget {
                 ),
               ),
               Transform.translate(
-                offset: Offset(30.0, 336.0),
+                offset: Offset(30.0, 366.0),
                 child:
                     // Adobe XD layer: '94406-OK8HUL-165' (shape)
                     Stack(
@@ -140,7 +140,7 @@ class StartPage extends StatelessWidget {
                 ),
               ),
               Transform.translate(
-                offset: Offset(180.0, 412.0),
+                offset: Offset(180.0, 442.0),
                 child: SizedBox(
                   width: 60.0,
                   height: 19.0,
@@ -161,7 +161,7 @@ class StartPage extends StatelessWidget {
           Stack(
             children: <Widget>[
               Transform.translate(
-                offset: Offset(30.0, 96.0),
+                offset: Offset(30.0, 126.0),
                 child: Container(
                   width: 300.0,
                   height: 100.0,
@@ -172,7 +172,7 @@ class StartPage extends StatelessWidget {
                 ),
               ),
               Transform.translate(
-                offset: Offset(30.0, 96.0),
+                offset: Offset(30.0, 126.0),
                 child: Container(
                   width: 300.0,
                   height: 100.0,
@@ -186,7 +186,7 @@ class StartPage extends StatelessWidget {
                 ),
               ),
               Transform.translate(
-                offset: Offset(116.0, 136.0),
+                offset: Offset(116.0, 166.0),
                 child: SizedBox(
                   width: 44.0,
                   height: 20.0,
@@ -207,7 +207,7 @@ class StartPage extends StatelessWidget {
           Stack(
             children: <Widget>[
               Transform.translate(
-                offset: Offset(30.0, 456.0),
+                offset: Offset(30.0, 486.0),
                 child: Container(
                   width: 300.0,
                   height: 100.0,
@@ -218,7 +218,7 @@ class StartPage extends StatelessWidget {
                 ),
               ),
               Transform.translate(
-                offset: Offset(30.0, 456.0),
+                offset: Offset(30.0, 486.0),
                 child:
                     // Adobe XD layer: '949' (shape)
                     Container(
@@ -234,7 +234,7 @@ class StartPage extends StatelessWidget {
                 ),
               ),
               Transform.translate(
-                offset: Offset(156.0, 463.0),
+                offset: Offset(156.0, 493.0),
                 child: SizedBox(
                   width: 49.0,
                   height: 20.0,
@@ -255,7 +255,7 @@ class StartPage extends StatelessWidget {
           Stack(
             children: <Widget>[
               Transform.translate(
-                offset: Offset(30.0, 216.0),
+                offset: Offset(30.0, 246.0),
                 child: Container(
                   width: 300.0,
                   height: 100.0,
@@ -266,7 +266,7 @@ class StartPage extends StatelessWidget {
                 ),
               ),
               Transform.translate(
-                offset: Offset(30.0, 216.0),
+                offset: Offset(30.0, 246.0),
                 child:
                     // Adobe XD layer: '431647-PE7V4P-324' (shape)
                     Container(
@@ -282,7 +282,7 @@ class StartPage extends StatelessWidget {
                 ),
               ),
               Transform.translate(
-                offset: Offset(259.0, 250.0),
+                offset: Offset(259.0, 280.0),
                 child: SizedBox(
                   width: 44.0,
                   height: 20.0,
@@ -299,7 +299,7 @@ class StartPage extends StatelessWidget {
                 ),
               ),
               Transform.translate(
-                offset: Offset(30, 216),
+                offset: Offset(30, 246),
                 child: Align(
                   alignment: Alignment.topLeft,
                   child: Container(

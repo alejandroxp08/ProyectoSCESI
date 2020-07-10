@@ -97,7 +97,7 @@ class SeriesPageStart extends StatelessWidget {
                 child: PageLink(
                   links: [
                     PageLinkInfo(
-                      transition: LinkTransition.PushLeft,
+                      transition: LinkTransition.SlideLeft,
                       ease: Curves.easeOut,
                       duration: 0.3,
                       pageBuilder: () => PeliculasPageStart(),

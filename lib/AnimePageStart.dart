@@ -17,7 +17,7 @@ class AnimePageStart extends StatelessWidget {
         children: <Widget>[
           Container(
             width: 360.0,
-            height: 65.0,
+            height: 95.0,
             decoration: BoxDecoration(
               color: const Color(0xffef6c00),
             ),
@@ -25,7 +25,7 @@ class AnimePageStart extends StatelessWidget {
           Stack(
             children: <Widget>[
               Transform.translate(
-                offset: Offset(148.0, 28.0),
+                offset: Offset(148.0, 58.0),
                 child: SizedBox(
                   width: 65.0,
                   height: 27.0,
@@ -42,7 +42,7 @@ class AnimePageStart extends StatelessWidget {
                 ),
               ),
               Transform.translate(
-                offset: Offset(35.0, 74.0),
+                offset: Offset(35.0, 104.0),
                 child: SizedBox(
                   width: 75.0,
                   height: 16.0,
@@ -60,7 +60,7 @@ class AnimePageStart extends StatelessWidget {
                 ),
               ),
               Transform.translate(
-                offset: Offset(25.0, 105.0),
+                offset: Offset(25.0, 135.0),
                 child: SizedBox(
                   width: 293.0,
                   height: 20.0,
@@ -77,7 +77,7 @@ class AnimePageStart extends StatelessWidget {
                 ),
               ),
               Transform.translate(
-                offset: Offset(30.0, 526.0),
+                offset: Offset(30.0, 586.0),
                 child: SizedBox(
                   width: 293.0,
                   height: 20.0,
@@ -98,7 +98,7 @@ class AnimePageStart extends StatelessWidget {
                 child: PageLink(
                   links: [
                     PageLinkInfo(
-                      transition: LinkTransition.PushLeft,
+                      transition: LinkTransition.SlideLeft,
                       ease: Curves.easeOut,
                       duration: 0.3,
                       pageBuilder: () => SeriesPageStart(),
@@ -107,7 +107,7 @@ class AnimePageStart extends StatelessWidget {
                   child: Stack(
                     children: <Widget>[
                       Transform.translate(
-                        offset: Offset(30.0, 466.0),
+                        offset: Offset(30.0, 496.0),
                         child: Container(
                           width: 310.0,
                           height: 39.0,
@@ -118,7 +118,7 @@ class AnimePageStart extends StatelessWidget {
                         ),
                       ),
                       Transform.translate(
-                        offset: Offset(161.0, 475.0),
+                        offset: Offset(161.0, 505.0),
                         child: SizedBox(
                           width: 39.0,
                           height: 22.0,
@@ -139,7 +139,7 @@ class AnimePageStart extends StatelessWidget {
                 ),
               ),
               Transform.translate(
-                offset: Offset(0.0, -53.0),
+                offset: Offset(0.0, -33.0),
                 child: PageLink(
                   links: [
                     PageLinkInfo(
@@ -152,7 +152,7 @@ class AnimePageStart extends StatelessWidget {
                   child: Stack(
                     children: <Widget>[
                       Transform.translate(
-                        offset: Offset(30.0, 515.0),
+                        offset: Offset(30.0, 545.0),
                         child: Container(
                           width: 310.0,
                           height: 39.0,
@@ -163,7 +163,7 @@ class AnimePageStart extends StatelessWidget {
                         ),
                       ),
                       Transform.translate(
-                        offset: Offset(153.0, 524.0),
+                        offset: Offset(153.0, 554.0),
                         child: SizedBox(
                           width: 64.0,
                           height: 22.0,
@@ -184,11 +184,11 @@ class AnimePageStart extends StatelessWidget {
                 ),
               ),
               Transform.translate(
-                offset: Offset(0.0, 177.0),
+                offset: Offset(0.0, 207.0),
                 child: Stack(
                   children: <Widget>[
                     Transform.translate(
-                      offset: Offset(30.0, 384.0),
+                      offset: Offset(30.0, 414.0),
                       child: Container(
                         width: 310.0,
                         height: 39.0,
@@ -199,7 +199,7 @@ class AnimePageStart extends StatelessWidget {
                       ),
                     ),
                     Transform.translate(
-                      offset: Offset(110.0, 394.0),
+                      offset: Offset(110.0, 424.0),
                       child: SizedBox(
                         width: 216.0,
                         height: 22.0,
@@ -219,7 +219,7 @@ class AnimePageStart extends StatelessWidget {
                 ),
               ),
               Transform.translate(
-                offset: Offset(44.0, 27.0),
+                offset: Offset(44.0, 57.0),
                 child: PageLink(
                   links: [
                     PageLinkInfo(
@@ -257,7 +257,7 @@ class AnimePageStart extends StatelessWidget {
           Stack(
             children: <Widget>[
               Transform.translate(
-                offset: Offset(-55.0, -111.0),
+                offset: Offset(-55.0, -81.0),
                 child: Stack(
                   children: <Widget>[
                     Transform.translate(
@@ -311,7 +311,7 @@ class AnimePageStart extends StatelessWidget {
                 ),
               ),
               Transform.translate(
-                offset: Offset(55.0, -111.0),
+                offset: Offset(55.0, -81.0),
                 child: Stack(
                   children: <Widget>[
                     Transform.translate(
@@ -331,7 +331,7 @@ class AnimePageStart extends StatelessWidget {
                 ),
               ),
               Transform.translate(
-                offset: Offset(165.0, -111.0),
+                offset: Offset(165.0, -81.0),
                 child: Stack(
                   children: <Widget>[
                     Transform.translate(
@@ -353,7 +353,7 @@ class AnimePageStart extends StatelessWidget {
             ],
           ),
           Transform.translate(
-            offset: Offset(0.0, 110.0),
+            offset: Offset(0.0, 140.0),
             child: Stack(
               children: <Widget>[
                 Transform.translate(

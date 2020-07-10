@@ -94,37 +94,47 @@ class MusicaPageStart extends StatelessWidget {
               ),
               Transform.translate(
                 offset: Offset(0.0, -68.0),
-                child: Stack(
-                  children: <Widget>[
-                    Transform.translate(
-                      offset: Offset(30.0, 466.0),
-                      child: Container(
-                        width: 310.0,
-                        height: 39.0,
-                        decoration: BoxDecoration(
-                          borderRadius: BorderRadius.circular(15.0),
-                          color: const Color(0xff790e8b),
-                        ),
-                      ),
-                    ),
-                    Transform.translate(
-                      offset: Offset(161.0, 475.0),
-                      child: SizedBox(
-                        width: 39.0,
-                        height: 22.0,
-                        child: Text(
-                          'Omitir',
-                          style: TextStyle(
-                            fontFamily: 'Roboto',
-                            fontSize: 14,
-                            color: const Color(0xffffffff),
-                            fontWeight: FontWeight.w500,
-                          ),
-                          textAlign: TextAlign.left,
-                        ),
-                      ),
+                child: PageLink(
+                  links: [
+                    PageLinkInfo(
+                      transition: LinkTransition.SlideLeft,
+                      ease: Curves.easeOut,
+                      duration: 0.3,
+                      pageBuilder: () => AnimePage(),
                     ),
                   ],
+                  child: Stack(
+                    children: <Widget>[
+                      Transform.translate(
+                        offset: Offset(30.0, 466.0),
+                        child: Container(
+                          width: 310.0,
+                          height: 39.0,
+                          decoration: BoxDecoration(
+                            borderRadius: BorderRadius.circular(15.0),
+                            color: const Color(0xff790e8b),
+                          ),
+                        ),
+                      ),
+                      Transform.translate(
+                        offset: Offset(161.0, 475.0),
+                        child: SizedBox(
+                          width: 39.0,
+                          height: 22.0,
+                          child: Text(
+                            'Omitir',
+                            style: TextStyle(
+                              fontFamily: 'Roboto',
+                              fontSize: 14,
+                              color: const Color(0xffffffff),
+                              fontWeight: FontWeight.w500,
+                            ),
+                            textAlign: TextAlign.left,
+                          ),
+                        ),
+                      ),
+                    ],
+                  ),
                 ),
               ),
               Transform.translate(
