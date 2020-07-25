@@ -1,4 +1,8 @@
 import 'package:flutter/material.dart';
+import 'package:recomendapp_flutter/categorias_page.dart';
+import 'package:recomendapp_flutter/favorites_page.dart';
+import 'package:recomendapp_flutter/generos_page.dart';
+import 'package:recomendapp_flutter/recomend_page.dart';
 
 class AppDrawer extends StatelessWidget {
   @override
@@ -12,12 +16,36 @@ class AppDrawer extends StatelessWidget {
             accountEmail: Text("alejandroxp08@gmail.com"),
           ),
           ListTile(
-            title: Icon(Icons.category),
-            onTap: () {},
+            title: Text("Categorias"),
+            onTap: () {
+              Navigator.of(context).pop();
+              Navigator.of(context).push(MaterialPageRoute(
+                  builder: (BuildContext context) => CategoriasPage()));
+            },
           ),
           ListTile(
-            title: Icon(Icons.star),
-            onTap: () {},
+            title: Text("Favoritos"),
+            onTap: () {
+              Navigator.of(context).pop();
+              Navigator.of(context).push(MaterialPageRoute(
+                  builder: (BuildContext context) => FavoritesPage()));
+            },
+          ),
+          ListTile(
+            title: Text("Géneros"),
+            onTap: () {
+              Navigator.of(context).pop();
+              Navigator.of(context).push(MaterialPageRoute(
+                  builder: (BuildContext context) => GenerosPage()));
+            },
+          ),
+          ListTile(
+            title: Text("Recomendaciones"),
+            onTap: () {
+              Navigator.of(context).pop();
+              Navigator.of(context).push(MaterialPageRoute(
+                  builder: (BuildContext context) => RecomendPage()));
+            },
           ),
         ],
       ),

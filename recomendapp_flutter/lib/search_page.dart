@@ -5,7 +5,7 @@ class SearchPage extends StatelessWidget {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: AppBar(
-        title: Text("Busqueda"),
+        title: Text("Búsqueda"),
       ),
     );
   }
