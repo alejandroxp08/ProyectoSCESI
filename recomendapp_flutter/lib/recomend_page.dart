@@ -12,7 +12,7 @@ class RecomendPage extends AppDrawer {
               icon: Icon(Icons.search),
               onPressed: () {
                 Navigator.of(context)
-                    .push(MaterialPageRoute(builder: (_) => SearchPage()));
+                    .push(MaterialPageRoute(builder: (_) => SearchList()));
               })
         ],
         title: Text(

@@ -41,7 +41,7 @@ class _MyHomePageState extends State<MyHomePage> {
             icon: Icon(Icons.search),
             onPressed: () {
               Navigator.of(context).push(MaterialPageRoute(
-                builder: (_) => SearchPage(),
+                builder: (_) => SearchList(),
               ));
             },
           ),
