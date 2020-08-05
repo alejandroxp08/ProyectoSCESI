@@ -27,18 +27,21 @@ class Anime {
       year: json['year'],
       numCap: json['numCap'],
       title: json['title'],
-      description: json['desccription'],
+      description: json['description'],
     );
   }
 }
 
-void main() => runApp(MyApp(post: fetchPost()));
-
-class MyApp extends StatelessWidget {
+class MyApp1 extends StatefulWidget {
   final Future<Anime> post;
 
-  MyApp({Key key, this.post}) : super(key: key);
+  MyApp1({Key key, this.post}) : super(key: key);
 
+  @override
+  _MyApp1State createState() => _MyApp1State();
+}
+
+class _MyApp1State extends State<MyApp1> {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
@@ -52,7 +55,7 @@ class MyApp extends StatelessWidget {
         ),
         body: Center(
           child: FutureBuilder<Anime>(
-            future: post,
+            future: widget.post,
             builder: (context, snapshot) {
               if (snapshot.hasData) {
                 return Text(snapshot.data.title);

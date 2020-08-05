@@ -2,6 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:recomendapp_flutter/categorias_page.dart';
 import 'package:recomendapp_flutter/favorites_page.dart';
 import 'package:recomendapp_flutter/generos_page.dart';
+import 'package:recomendapp_flutter/information_of_page.dart';
 import 'package:recomendapp_flutter/recomend_page.dart';
 
 class AppDrawer extends StatelessWidget {
@@ -47,6 +48,14 @@ class AppDrawer extends StatelessWidget {
                   builder: (BuildContext context) => RecomendPage()));
             },
           ),
+          ListTile(
+            title: Text("Prueba"),
+            onTap: () {
+              Navigator.of(context).pop();
+              Navigator.of(context).push(MaterialPageRoute(
+                  builder: (BuildContext context) => MyApp1()));
+            },
+          )
         ],
       ),
     );
